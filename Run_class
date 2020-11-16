@@ -1,0 +1,20 @@
+package polimrphismtask;
+
+/**
+ *
+ * @author eng_manal
+ */
+public class Run {
+    
+    public static void main(String[] args) {
+        
+        Rectangle r = new Rectangle(4, 9);
+   
+        System.out.println("Area = "+r.getArea());
+        System.out.println("Width = "+r.getWidth());
+        System.out.println("perimeter = "+r.getPerimeter());
+        System.out.println("Length = "+r.getLength());
+    }
+    
+    
+}
